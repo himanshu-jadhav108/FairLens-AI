@@ -1,0 +1,44 @@
+# Backend (Python)
+backend/venv/
+backend/.venv/
+backend/env/
+backend/.env/
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+backend/.mypy_cache/
+backend/.sqlite
+backend/sample_data.csv # Optional: uncomment if you want to keep sample data out of git
+
+# Frontend (Node/React)
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+frontend/.env
+frontend/.eslintcache
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# General / IDEs
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.bak
+*.tmp
+
+# FairLens AI Specific
+bin/
+obj/
